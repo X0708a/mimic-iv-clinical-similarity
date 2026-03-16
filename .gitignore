@@ -1,0 +1,15 @@
+# dataset
+AI CDSS/mimic-iv-3.1/
+
+# database files
+*.db
+*.sqlite
+*.sqlite3
+
+# python virtual environments
+venv/
+AI CDSS/venv/
+
+# python cache
+__pycache__/
+*.pyc

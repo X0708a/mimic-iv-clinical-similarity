@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MIMIC-IV preview: admissions.csv.gz</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
+    h1 { font-size: 18px; margin: 0 0 8px 0; }
+    .meta { color: #555; margin-bottom: 12px; font-size: 12px; }
+    .wrap { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    .table-container { overflow: auto; max-height: 75vh; }
+    table { border-collapse: collapse; width: max-content; min-width: 100%; }
+    thead th {
+      position: sticky; top: 0; z-index: 2;
+      background: #f6f8fa; border-bottom: 1px solid #ddd;
+      font-weight: 600;
+    }
+    th, td { padding: 8px 10px; border-bottom: 1px solid #eee; white-space: nowrap; }
+    tr:hover td { background: #fffbe6; }
+    .hint { margin-top: 10px; font-size: 12px; color: #555; }
+    code { background: #f6f8fa; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+  <h1>MIMIC-IV preview: admissions.csv.gz</h1>
+  <div class="meta">Generated: 2026-03-13 15:08:48 • Rows shown: 25 • Columns: 16</div>
+  <div class="wrap">
+    <div class="table-container">
+      <table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>admittime</th>
+      <th>dischtime</th>
+      <th>deathtime</th>
+      <th>admission_type</th>
+      <th>admit_provider_id</th>
+      <th>admission_location</th>
+      <th>discharge_location</th>
+      <th>insurance</th>
+      <th>language</th>
+      <th>marital_status</th>
+      <th>race</th>
+      <th>edregtime</th>
+      <th>edouttime</th>
+      <th>hospital_expire_flag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>2180-05-06 22:23:00</td>
+      <td>2180-05-07 17:15:00</td>
+      <td>NaT</td>
+      <td>URGENT</td>
+      <td>P49AFC</td>
+      <td>TRANSFER FROM HOSPITAL</td>
+      <td>HOME</td>
+      <td>Medicaid</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-05-06 19:17:00</td>
+      <td>2180-05-06 23:30:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-26 18:27:00</td>
+      <td>2180-06-27 18:49:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P784FA</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOME</td>
+      <td>Medicaid</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-06-26 15:54:00</td>
+      <td>2180-06-26 21:31:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>2180-08-05 23:44:00</td>
+      <td>2180-08-07 17:50:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P19UTS</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOSPICE</td>
+      <td>Medicaid</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-08-05 20:58:00</td>
+      <td>2180-08-06 01:44:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>2180-07-23 12:35:00</td>
+      <td>2180-07-25 17:55:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P06OTX</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOME</td>
+      <td>Medicaid</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-07-23 05:54:00</td>
+      <td>2180-07-23 14:00:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000068</td>
+      <td>25022803</td>
+      <td>2160-03-03 23:16:00</td>
+      <td>2160-03-04 06:26:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P39NWO</td>
+      <td>EMERGENCY ROOM</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>2160-03-03 21:55:00</td>
+      <td>2160-03-04 06:26:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000084</td>
+      <td>23052089</td>
+      <td>2160-11-21 01:56:00</td>
+      <td>2160-11-25 14:52:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P42H7G</td>
+      <td>WALK-IN/SELF REFERRAL</td>
+      <td>HOME HEALTH CARE</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>MARRIED</td>
+      <td>WHITE</td>
+      <td>2160-11-20 20:36:00</td>
+      <td>2160-11-21 03:20:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000084</td>
+      <td>29888819</td>
+      <td>2160-12-28 05:11:00</td>
+      <td>2160-12-28 16:07:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P35NE4</td>
+      <td>PHYSICIAN REFERRAL</td>
+      <td>NaN</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>MARRIED</td>
+      <td>WHITE</td>
+      <td>2160-12-27 18:32:00</td>
+      <td>2160-12-28 16:07:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000108</td>
+      <td>27250926</td>
+      <td>2163-09-27 23:17:00</td>
+      <td>2163-09-28 09:04:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P40JML</td>
+      <td>EMERGENCY ROOM</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>2163-09-27 16:18:00</td>
+      <td>2163-09-28 09:04:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000117</td>
+      <td>22927623</td>
+      <td>2181-11-15 02:05:00</td>
+      <td>2181-11-15 14:52:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P47EY8</td>
+      <td>EMERGENCY ROOM</td>
+      <td>NaN</td>
+      <td>Medicaid</td>
+      <td>English</td>
+      <td>DIVORCED</td>
+      <td>WHITE</td>
+      <td>2181-11-14 21:51:00</td>
+      <td>2181-11-15 09:57:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000117</td>
+      <td>27988844</td>
+      <td>2183-09-18 18:10:00</td>
+      <td>2183-09-21 16:30:00</td>
+      <td>NaT</td>
+      <td>OBSERVATION ADMIT</td>
+      <td>P13ACE</td>
+      <td>WALK-IN/SELF REFERRAL</td>
+      <td>HOME HEALTH CARE</td>
+      <td>Medicaid</td>
+      <td>English</td>
+      <td>DIVORCED</td>
+      <td>WHITE</td>
+      <td>2183-09-18 08:41:00</td>
+      <td>2183-09-18 20:20:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000161</td>
+      <td>22148160</td>
+      <td>2163-08-20 01:42:00</td>
+      <td>2163-08-20 16:33:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P73O7K</td>
+      <td>PHYSICIAN REFERRAL</td>
+      <td>NaN</td>
+      <td>Medicaid</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>2163-08-19 22:35:00</td>
+      <td>2163-08-20 16:33:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000248</td>
+      <td>20600184</td>
+      <td>2192-11-30 01:25:00</td>
+      <td>2192-11-30 19:20:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P416B5</td>
+      <td>EMERGENCY ROOM</td>
+      <td>NaN</td>
+      <td>Private</td>
+      <td>English</td>
+      <td>MARRIED</td>
+      <td>WHITE</td>
+      <td>2192-11-29 18:44:00</td>
+      <td>2192-11-30 03:32:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000280</td>
+      <td>25852320</td>
+      <td>2151-03-18 03:28:00</td>
+      <td>2151-03-18 17:04:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P60DDG</td>
+      <td>EMERGENCY ROOM</td>
+      <td>NaN</td>
+      <td>Private</td>
+      <td>English</td>
+      <td>NaN</td>
+      <td>OTHER</td>
+      <td>2151-03-18 02:35:00</td>
+      <td>2151-03-18 17:04:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000560</td>
+      <td>28979390</td>
+      <td>2189-10-15 10:30:00</td>
+      <td>2189-10-17 15:00:00</td>
+      <td>NaT</td>
+      <td>SURGICAL SAME DAY ADMISSION</td>
+      <td>P64FPX</td>
+      <td>PHYSICIAN REFERRAL</td>
+      <td>HOME</td>
+      <td>Private</td>
+      <td>English</td>
+      <td>MARRIED</td>
+      <td>WHITE</td>
+      <td>NaT</td>
+      <td>NaT</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000635</td>
+      <td>20642640</td>
+      <td>2143-12-23 14:55:00</td>
+      <td>2143-12-24 12:52:00</td>
+      <td>NaT</td>
+      <td>EU OBSERVATION</td>
+      <td>P553YZ</td>
+      <td>WALK-IN/SELF REFERRAL</td>
+      <td>NaN</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>BLACK/AFRICAN AMERICAN</td>
+      <td>2143-12-23 07:43:00</td>
+      <td>2143-12-24 12:52:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000635</td>
+      <td>26134563</td>
+      <td>2136-06-19 14:24:00</td>
+      <td>2136-06-20 11:30:00</td>
+      <td>NaT</td>
+      <td>AMBULATORY OBSERVATION</td>
+      <td>P96UW1</td>
+      <td>PROCEDURE SITE</td>
+      <td>NaN</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>BLACK/AFRICAN AMERICAN</td>
+      <td>NaT</td>
+      <td>NaT</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000690</td>
+      <td>23280645</td>
+      <td>2150-09-16 19:48:00</td>
+      <td>2150-09-24 13:50:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P941QM</td>
+      <td>EMERGENCY ROOM</td>
+      <td>SKILLED NURSING FACILITY</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2150-09-16 16:00:00</td>
+      <td>2150-09-16 21:03:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000690</td>
+      <td>25860671</td>
+      <td>2150-11-02 18:02:00</td>
+      <td>2150-11-12 13:45:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P26QQ4</td>
+      <td>EMERGENCY ROOM</td>
+      <td>REHAB</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2150-11-02 11:41:00</td>
+      <td>2150-11-02 19:37:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000690</td>
+      <td>26146595</td>
+      <td>2152-01-28 23:40:00</td>
+      <td>2152-01-30 15:56:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P61PLH</td>
+      <td>EMERGENCY ROOM</td>
+      <td>SKILLED NURSING FACILITY</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2152-01-28 15:41:00</td>
+      <td>2152-01-29 01:22:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000690</td>
+      <td>26504700</td>
+      <td>2150-07-03 02:46:00</td>
+      <td>2150-07-07 15:42:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P46JQK</td>
+      <td>EMERGENCY ROOM</td>
+      <td>SKILLED NURSING FACILITY</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2150-07-02 22:59:00</td>
+      <td>2150-07-03 03:55:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000719</td>
+      <td>24558333</td>
+      <td>2140-04-15 00:14:00</td>
+      <td>2140-04-18 12:29:00</td>
+      <td>NaT</td>
+      <td>URGENT</td>
+      <td>P79PTN</td>
+      <td>PHYSICIAN REFERRAL</td>
+      <td>HOME</td>
+      <td>Private</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>NaT</td>
+      <td>NaT</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000764</td>
+      <td>27897940</td>
+      <td>2132-10-14 23:31:00</td>
+      <td>2132-10-19 16:30:00</td>
+      <td>NaT</td>
+      <td>URGENT</td>
+      <td>P38YR6</td>
+      <td>TRANSFER FROM HOSPITAL</td>
+      <td>HOME HEALTH CARE</td>
+      <td>Medicare</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>2132-10-14 19:31:00</td>
+      <td>2132-10-15 16:45:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000826</td>
+      <td>20032235</td>
+      <td>2146-12-05 19:07:00</td>
+      <td>2146-12-12 16:30:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P278S6</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOME</td>
+      <td>Private</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>2146-12-05 11:09:00</td>
+      <td>2146-12-05 20:54:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000826</td>
+      <td>21086876</td>
+      <td>2146-12-18 17:39:00</td>
+      <td>2146-12-24 19:55:00</td>
+      <td>NaT</td>
+      <td>DIRECT EMER.</td>
+      <td>P61YAW</td>
+      <td>CLINIC REFERRAL</td>
+      <td>HOME</td>
+      <td>Private</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>NaT</td>
+      <td>NaT</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10000826</td>
+      <td>28289260</td>
+      <td>2146-12-31 00:43:00</td>
+      <td>2147-01-02 17:45:00</td>
+      <td>NaT</td>
+      <td>EW EMER.</td>
+      <td>P19UTS</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOME</td>
+      <td>Private</td>
+      <td>English</td>
+      <td>SINGLE</td>
+      <td>WHITE</td>
+      <td>2146-12-30 17:06:00</td>
+      <td>2146-12-31 02:10:00</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+  <div class="hint">Tip: horizontal scroll for wide tables. Click any cell to copy its value.</div>
+  <script>
+    // Click-to-copy cell contents (lightweight)
+    document.addEventListener('click', async (e) => {
+      const td = e.target.closest('td');
+      if (!td) return;
+      const text = td.innerText;
+      try {
+        await navigator.clipboard.writeText(text);
+        td.style.outline = "2px solid #2da44e";
+        setTimeout(() => td.style.outline = "", 350);
+      } catch (_) {}
+    });
+    </script>
+</body>
+</html>

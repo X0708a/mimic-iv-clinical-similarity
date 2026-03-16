@@ -1,0 +1,651 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MIMIC-IV preview: prescriptions.csv.gz</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
+    h1 { font-size: 18px; margin: 0 0 8px 0; }
+    .meta { color: #555; margin-bottom: 12px; font-size: 12px; }
+    .wrap { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    .table-container { overflow: auto; max-height: 75vh; }
+    table { border-collapse: collapse; width: max-content; min-width: 100%; }
+    thead th {
+      position: sticky; top: 0; z-index: 2;
+      background: #f6f8fa; border-bottom: 1px solid #ddd;
+      font-weight: 600;
+    }
+    th, td { padding: 8px 10px; border-bottom: 1px solid #eee; white-space: nowrap; }
+    tr:hover td { background: #fffbe6; }
+    .hint { margin-top: 10px; font-size: 12px; color: #555; }
+    code { background: #f6f8fa; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+  <h1>MIMIC-IV preview: prescriptions.csv.gz</h1>
+  <div class="meta">Generated: 2026-03-13 15:09:16 • Rows shown: 25 • Columns: 21</div>
+  <div class="wrap">
+    <div class="table-container">
+      <table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>pharmacy_id</th>
+      <th>poe_id</th>
+      <th>poe_seq</th>
+      <th>order_provider_id</th>
+      <th>starttime</th>
+      <th>stoptime</th>
+      <th>drug_type</th>
+      <th>drug</th>
+      <th>formulary_drug_cd</th>
+      <th>gsn</th>
+      <th>ndc</th>
+      <th>prod_strength</th>
+      <th>form_rx</th>
+      <th>dose_val_rx</th>
+      <th>dose_unit_rx</th>
+      <th>form_val_disp</th>
+      <th>form_unit_disp</th>
+      <th>doses_per_24_hrs</th>
+      <th>route</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>12775705</td>
+      <td>10000032-55</td>
+      <td>55</td>
+      <td>P85UQ1</td>
+      <td>2180-05-08 08:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Furosemide</td>
+      <td>FURO40</td>
+      <td>008209</td>
+      <td>51079007320</td>
+      <td>40mg Tablet</td>
+      <td>None</td>
+      <td>40</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>18415984</td>
+      <td>10000032-42</td>
+      <td>42</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 02:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Ipratropium Bromide Neb</td>
+      <td>IPRA2H</td>
+      <td>021700</td>
+      <td>00487980125</td>
+      <td>2.5mL Vial</td>
+      <td>None</td>
+      <td>1</td>
+      <td>NEB</td>
+      <td>1</td>
+      <td>VIAL</td>
+      <td>4</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>23637373</td>
+      <td>10000032-35</td>
+      <td>35</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 09:00:00</td>
+      <td>MAIN</td>
+      <td>Furosemide</td>
+      <td>FURO20</td>
+      <td>008208</td>
+      <td>51079007220</td>
+      <td>20mg Tablet</td>
+      <td>None</td>
+      <td>20</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>26862314</td>
+      <td>10000032-41</td>
+      <td>41</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>MAIN</td>
+      <td>Potassium Chloride</td>
+      <td>MICROK10</td>
+      <td>001275</td>
+      <td>00245004101</td>
+      <td>10mEq ER Tablet</td>
+      <td>None</td>
+      <td>40</td>
+      <td>mEq</td>
+      <td>4</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>30740602</td>
+      <td>10000032-27</td>
+      <td>27</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 00:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Sodium Chloride 0.9%&nbsp;&nbsp;Flush</td>
+      <td>NACLFLUSH</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>10 mL Syringe</td>
+      <td>None</td>
+      <td>3</td>
+      <td>mL</td>
+      <td>0.3</td>
+      <td>SYR</td>
+      <td>3</td>
+      <td>IV</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>43092008</td>
+      <td>10000032-37</td>
+      <td>37</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Raltegravir</td>
+      <td>RALT400</td>
+      <td>063231</td>
+      <td>00006022761</td>
+      <td>400 mg Tablet</td>
+      <td>None</td>
+      <td>400</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>2</td>
+      <td>PO</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>46308055</td>
+      <td>10000032-56</td>
+      <td>56</td>
+      <td>P85UQ1</td>
+      <td>2180-05-08 08:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Spironolactone</td>
+      <td>SPIR25</td>
+      <td>006817</td>
+      <td>63739054410</td>
+      <td>25mg Tablet</td>
+      <td>None</td>
+      <td>50</td>
+      <td>mg</td>
+      <td>2</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>48214508</td>
+      <td>10000032-39</td>
+      <td>39</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Acetaminophen</td>
+      <td>APAP500</td>
+      <td>004490</td>
+      <td>00904198861</td>
+      <td>500mg Tablet</td>
+      <td>None</td>
+      <td>500</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>&lt;NA&gt;</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>71489491</td>
+      <td>10000032-23</td>
+      <td>23</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 00:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Influenza Vaccine Quadrivalent</td>
+      <td>INFL0.5LF</td>
+      <td>072514</td>
+      <td>19515089452</td>
+      <td>0.5 mL Syringe</td>
+      <td>None</td>
+      <td>0.5</td>
+      <td>mL</td>
+      <td>1</td>
+      <td>SYR</td>
+      <td>0</td>
+      <td>IM</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>73243129</td>
+      <td>10000032-33</td>
+      <td>33</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Albuterol Inhaler</td>
+      <td>ALBU17H</td>
+      <td>028090</td>
+      <td>00173068224</td>
+      <td>8 g Inhaler</td>
+      <td>None</td>
+      <td>2</td>
+      <td>PUFF</td>
+      <td>0.02</td>
+      <td>INH</td>
+      <td>&lt;NA&gt;</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>85199369</td>
+      <td>10000032-34</td>
+      <td>34</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Emtricitabine-Tenofovir (Truvada)</td>
+      <td>TRUV200/300</td>
+      <td>057883</td>
+      <td>61958070101</td>
+      <td>200-300mg Tablet</td>
+      <td>None</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>86601710</td>
+      <td>10000032-38</td>
+      <td>38</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 09:00:00</td>
+      <td>MAIN</td>
+      <td>Spironolactone</td>
+      <td>SPIR25</td>
+      <td>006817</td>
+      <td>63739054410</td>
+      <td>25mg Tablet</td>
+      <td>None</td>
+      <td>50</td>
+      <td>mg</td>
+      <td>2</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>86768272</td>
+      <td>10000032-32</td>
+      <td>32</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 00:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Heparin</td>
+      <td>HEPA5I</td>
+      <td>006549</td>
+      <td>63323026201</td>
+      <td>5000 Units / mL- 1mL Vial</td>
+      <td>None</td>
+      <td>5000</td>
+      <td>UNIT</td>
+      <td>1</td>
+      <td>mL</td>
+      <td>3</td>
+      <td>SC</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>90004563</td>
+      <td>10000032-36</td>
+      <td>36</td>
+      <td>P23SJA</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Nicotine Patch</td>
+      <td>NICO14P</td>
+      <td>016426</td>
+      <td>00135019502</td>
+      <td>14mg/24Hr Patch</td>
+      <td>None</td>
+      <td>14</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>PTCH</td>
+      <td>1</td>
+      <td>TD</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>6972845</td>
+      <td>10000032-108</td>
+      <td>108</td>
+      <td>P992IN</td>
+      <td>2180-06-27 08:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Furosemide</td>
+      <td>FURO40</td>
+      <td>008209</td>
+      <td>51079007320</td>
+      <td>40mg Tablet</td>
+      <td>None</td>
+      <td>40</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>11030592</td>
+      <td>10000032-97</td>
+      <td>97</td>
+      <td>P992IN</td>
+      <td>2180-06-26 23:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Rifaximin</td>
+      <td>RIFA550</td>
+      <td>066295</td>
+      <td>65649030303</td>
+      <td>550mg Tablet</td>
+      <td>None</td>
+      <td>550</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>2</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>17572008</td>
+      <td>10000032-83</td>
+      <td>83</td>
+      <td>P992IN</td>
+      <td>2180-06-26 22:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Sodium Chloride 0.9%&nbsp;&nbsp;Flush</td>
+      <td>NACLFLUSH</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>10 mL Syringe</td>
+      <td>None</td>
+      <td>3</td>
+      <td>mL</td>
+      <td>0.3</td>
+      <td>SYR</td>
+      <td>3</td>
+      <td>IV</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>30474366</td>
+      <td>10000032-91</td>
+      <td>91</td>
+      <td>P992IN</td>
+      <td>2180-06-26 23:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Albuterol Inhaler</td>
+      <td>ALBU17H</td>
+      <td>028090</td>
+      <td>00173068224</td>
+      <td>8 g Inhaler</td>
+      <td>None</td>
+      <td>2</td>
+      <td>PUFF</td>
+      <td>0.02</td>
+      <td>INH</td>
+      <td>&lt;NA&gt;</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>39916938</td>
+      <td>10000032-92</td>
+      <td>92</td>
+      <td>P992IN</td>
+      <td>2180-06-26 23:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Calcium Carbonate</td>
+      <td>CAL1250</td>
+      <td>001340</td>
+      <td>00054812025</td>
+      <td>1250mg Tablet</td>
+      <td>None</td>
+      <td>1250</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>2</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>41871702</td>
+      <td>10000032-94</td>
+      <td>94</td>
+      <td>P992IN</td>
+      <td>2180-06-26 23:00:00</td>
+      <td>2180-06-26 22:00:00</td>
+      <td>MAIN</td>
+      <td>Furosemide</td>
+      <td>FURO20</td>
+      <td>008208</td>
+      <td>51079007220</td>
+      <td>20mg Tablet</td>
+      <td>None</td>
+      <td>20</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>50970031</td>
+      <td>10000032-90</td>
+      <td>90</td>
+      <td>P992IN</td>
+      <td>2180-06-26 23:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Acetaminophen</td>
+      <td>APAP500</td>
+      <td>004490</td>
+      <td>00904198861</td>
+      <td>500mg Tablet</td>
+      <td>None</td>
+      <td>500</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>&lt;NA&gt;</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>51162851</td>
+      <td>10000032-79</td>
+      <td>79</td>
+      <td>P992IN</td>
+      <td>2180-06-26 22:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Influenza Vaccine Quadrivalent</td>
+      <td>INFL0.5LF</td>
+      <td>072514</td>
+      <td>19515089452</td>
+      <td>0.5 mL Syringe</td>
+      <td>None</td>
+      <td>0.5</td>
+      <td>mL</td>
+      <td>1</td>
+      <td>SYR</td>
+      <td>0</td>
+      <td>IM</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>53235121</td>
+      <td>10000032-113</td>
+      <td>113</td>
+      <td>P87CLZ</td>
+      <td>2180-06-27 18:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Albumin 25% (12.5g / 50mL)</td>
+      <td>ALBU25</td>
+      <td>006329</td>
+      <td>67467064301</td>
+      <td>50 mL Bag</td>
+      <td>None</td>
+      <td>37.5</td>
+      <td>g</td>
+      <td>3</td>
+      <td>BAG</td>
+      <td>1</td>
+      <td>IV</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>57450639</td>
+      <td>10000032-100</td>
+      <td>100</td>
+      <td>P992IN</td>
+      <td>2180-06-26 23:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Tiotropium Bromide</td>
+      <td>TIOT</td>
+      <td>050714</td>
+      <td>00597007575</td>
+      <td>18mcg Capsule-Inhalation Device</td>
+      <td>None</td>
+      <td>1</td>
+      <td>CAP</td>
+      <td>1</td>
+      <td>CAP</td>
+      <td>1</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>60447371</td>
+      <td>10000032-93</td>
+      <td>93</td>
+      <td>P992IN</td>
+      <td>2180-06-26 23:00:00</td>
+      <td>2180-06-27 23:00:00</td>
+      <td>MAIN</td>
+      <td>Emtricitabine-Tenofovir (Truvada)</td>
+      <td>TRUV200/300</td>
+      <td>057883</td>
+      <td>61958070101</td>
+      <td>200-300mg Tablet</td>
+      <td>None</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>PO</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+  <div class="hint">Tip: horizontal scroll for wide tables. Click any cell to copy its value.</div>
+  <script>
+    // Click-to-copy cell contents (lightweight)
+    document.addEventListener('click', async (e) => {
+      const td = e.target.closest('td');
+      if (!td) return;
+      const text = td.innerText;
+      try {
+        await navigator.clipboard.writeText(text);
+        td.style.outline = "2px solid #2da44e";
+        setTimeout(() => td.style.outline = "", 350);
+      } catch (_) {}
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MIMIC-IV preview: d_icd_diagnoses.csv.gz</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
+    h1 { font-size: 18px; margin: 0 0 8px 0; }
+    .meta { color: #555; margin-bottom: 12px; font-size: 12px; }
+    .wrap { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    .table-container { overflow: auto; max-height: 75vh; }
+    table { border-collapse: collapse; width: max-content; min-width: 100%; }
+    thead th {
+      position: sticky; top: 0; z-index: 2;
+      background: #f6f8fa; border-bottom: 1px solid #ddd;
+      font-weight: 600;
+    }
+    th, td { padding: 8px 10px; border-bottom: 1px solid #eee; white-space: nowrap; }
+    tr:hover td { background: #fffbe6; }
+    .hint { margin-top: 10px; font-size: 12px; color: #555; }
+    code { background: #f6f8fa; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+  <h1>MIMIC-IV preview: d_icd_diagnoses.csv.gz</h1>
+  <div class="meta">Generated: 2026-03-13 15:09:05 • Rows shown: 25 • Columns: 3</div>
+  <div class="wrap">
+    <div class="table-container">
+      <table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>icd_code</th>
+      <th>icd_version</th>
+      <th>long_title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0010</td>
+      <td>9</td>
+      <td>Cholera due to vibrio cholerae</td>
+    </tr>
+    <tr>
+      <td>0011</td>
+      <td>9</td>
+      <td>Cholera due to vibrio cholerae el tor</td>
+    </tr>
+    <tr>
+      <td>0019</td>
+      <td>9</td>
+      <td>Cholera, unspecified</td>
+    </tr>
+    <tr>
+      <td>0020</td>
+      <td>9</td>
+      <td>Typhoid fever</td>
+    </tr>
+    <tr>
+      <td>0021</td>
+      <td>9</td>
+      <td>Paratyphoid fever A</td>
+    </tr>
+    <tr>
+      <td>0022</td>
+      <td>9</td>
+      <td>Paratyphoid fever B</td>
+    </tr>
+    <tr>
+      <td>0023</td>
+      <td>9</td>
+      <td>Paratyphoid fever C</td>
+    </tr>
+    <tr>
+      <td>0029</td>
+      <td>9</td>
+      <td>Paratyphoid fever, unspecified</td>
+    </tr>
+    <tr>
+      <td>0030</td>
+      <td>9</td>
+      <td>Salmonella gastroenteritis</td>
+    </tr>
+    <tr>
+      <td>0031</td>
+      <td>9</td>
+      <td>Salmonella septicemia</td>
+    </tr>
+    <tr>
+      <td>00320</td>
+      <td>9</td>
+      <td>Localized salmonella infection, unspecified</td>
+    </tr>
+    <tr>
+      <td>00321</td>
+      <td>9</td>
+      <td>Salmonella meningitis</td>
+    </tr>
+    <tr>
+      <td>00322</td>
+      <td>9</td>
+      <td>Salmonella pneumonia</td>
+    </tr>
+    <tr>
+      <td>00323</td>
+      <td>9</td>
+      <td>Salmonella arthritis</td>
+    </tr>
+    <tr>
+      <td>00324</td>
+      <td>9</td>
+      <td>Salmonella osteomyelitis</td>
+    </tr>
+    <tr>
+      <td>00329</td>
+      <td>9</td>
+      <td>Other localized salmonella infections</td>
+    </tr>
+    <tr>
+      <td>0038</td>
+      <td>9</td>
+      <td>Other specified salmonella infections</td>
+    </tr>
+    <tr>
+      <td>0039</td>
+      <td>9</td>
+      <td>Salmonella infection, unspecified</td>
+    </tr>
+    <tr>
+      <td>0040</td>
+      <td>9</td>
+      <td>Shigella dysenteriae</td>
+    </tr>
+    <tr>
+      <td>0041</td>
+      <td>9</td>
+      <td>Shigella flexneri</td>
+    </tr>
+    <tr>
+      <td>0042</td>
+      <td>9</td>
+      <td>Shigella boydii</td>
+    </tr>
+    <tr>
+      <td>0043</td>
+      <td>9</td>
+      <td>Shigella sonnei</td>
+    </tr>
+    <tr>
+      <td>0048</td>
+      <td>9</td>
+      <td>Other specified shigella infections</td>
+    </tr>
+    <tr>
+      <td>0049</td>
+      <td>9</td>
+      <td>Shigellosis, unspecified</td>
+    </tr>
+    <tr>
+      <td>0050</td>
+      <td>9</td>
+      <td>Staphylococcal food poisoning</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+  <div class="hint">Tip: horizontal scroll for wide tables. Click any cell to copy its value.</div>
+  <script>
+    // Click-to-copy cell contents (lightweight)
+    document.addEventListener('click', async (e) => {
+      const td = e.target.closest('td');
+      if (!td) return;
+      const text = td.innerText;
+      try {
+        await navigator.clipboard.writeText(text);
+        td.style.outline = "2px solid #2da44e";
+        setTimeout(() => td.style.outline = "", 350);
+      } catch (_) {}
+    });
+    </script>
+</body>
+</html>
