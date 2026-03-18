@@ -1,3 +1,12 @@
+# Download DuckDB
+
+Go here: https://duckdb.org/docs/installation/
+
+Download: duckdb_cli-windows-amd64.zip (do differently for MAC)
+Step 2 — Extract the zip in "AI CDSS" folder
+
+You'll get: duckdb.exe
+
 # Database file in the main folder (not to be uploaded to github)
 
 make a mimic.db file in the AI CDSS folder
@@ -86,3 +95,16 @@ For each (subject_id, hadm_id):
 Now give the detailed analysis as seen in the preprocessing_log.txt
 
 You'll get exact detailed info of what **base personal info** you'll be working with
+
+# Make 01_cdss_diagnoses in the database
+
+correct the paths in **01_cdss_diagnoses.py** file as per your device
+run "python 01_cdss_diagnoses.py"
+now you have 01_cdss_diagnoses table in mimic.db
+
+# Make 01_cdss_treatment in the databse
+
+make sure you're in "AI CDSS" folder in the CLI
+now run : "./duckdb.exe mimic.db"
+then you'll have something like : mimic D
+now just run : ".read preprocessing/01_cdss_treatment.sql"
